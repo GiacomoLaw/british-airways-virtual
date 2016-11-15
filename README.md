@@ -1,2 +1,2 @@
 # british-airways-virtual
-BA virtual airline website
+The code for the BA virtual website, a virtual airline for Infinite Flight.
