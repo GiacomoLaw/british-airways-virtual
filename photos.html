@@ -64,11 +64,86 @@
     </section>
     <section>
         <h3>Welcome to the gallery!</h3>
-         <p>The gallery is a place where our pilot submitted photos go. Make sure to check them out!<br><br>
-           Check out the <a href="about.html">about page</a> for more info!</p>
+         <p>The gallery is a place where our pilot submitted photos go. Make sure to check them out!\</p>
     </section>
     <section>
-      
+    <style>
+div.img {
+  border: 1px solid #ccc;
+}
+
+div.img:hover {
+  border: 1px solid #777;
+}
+
+div.img img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px){
+  .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px){
+  .responsive {
+      width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+
+<div class="responsive">
+<div class="img">
+  <a target="_blank" href="img\aviary-image-1479454871589.jpeg">
+    <img src="/img/aviary-image-1479454871589.jpeg" alt="A Boeing 747-400 descending" width="300" height="200">
+  </a>
+  <div class="desc">A Boeing 747-400 descending</div>
+</div>
+</div>
+
+
+<div class="responsive">
+<div class="img">
+  <a target="_blank" href="img\Screenshot_2016-11-18-13-30-35-973.jpg">
+    <img src="/img/Screenshot_2016-11-18-13-30-35-973.jpg" alt="Boeing 787-9 touching down" width="600" height="400">
+  </a>
+  <div class="desc">Boeing 787-9 touching down</div>
+</div>
+</div>
+
+<div class="responsive">
+<div class="img">
+  <a target="_blank" href="img\Slack for iOS Upload.jpg">
+    <img src="/img/Slack for iOS Upload.jpg" alt="Boeing 777-200ER climbing" width="600" height="400">
+  </a>
+  <div class="desc">A Boeing 777-200ER climbing</div>
+</div>
+</div>
+    </section>
     <footer>
         <div class="container">
             <div class="row">
