@@ -3,7 +3,7 @@ Just wanted to share a template that you can use for your va. It's HTML with CSS
 
 Please note the license: https://tldrlegal.com/license/gnu-affero-general-public-license-v3-(agpl-3.0). You can view a live demo from the link below.
 
-[Live demo](https://giacomolaw.github.io/va-website-template/)
+[Live demo](https://virtual-website.000webhostapp.com/photos.html)
 
 I suggest using [000webhost](https://www.000webhost.com/928694.html) to host it for free. You'll need ftp access to that server.
 
