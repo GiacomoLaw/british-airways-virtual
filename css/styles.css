@@ -180,6 +180,10 @@ ul li {
   background-color: #000;
   border-radius: 4px; }
 
+  header .header-nav {
+    display: inline-block;
+    color: #ffffff }
+
 /* ==========================================================================
 Animations
 ========================================================================== */
